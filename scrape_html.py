@@ -18,6 +18,7 @@ def get_image (name):
 # print (get_image("Junya Takahashi"))
 
 allnames = []
+allimages = []
 for name in names:
 	s = name.partition(',')
 	# Put in format: First Last
